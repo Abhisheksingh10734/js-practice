@@ -8,7 +8,7 @@ for (let i = 0; i < str.length; i++) {
 
     let currentCharCode = str.charCodeAt(i);
 
-    if (currentCharCode >= 65 && currentCharCode <= 96) {
+    if (currentCharCode >= 65 && currentCharCode <= 90) {
         lowerStr += String.fromCharCode(currentCharCode + 32);
     } else {
         lowerStr += str[i];
